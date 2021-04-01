@@ -16,8 +16,12 @@
     font-weight: 900;
 }
 
+span {
+    color: rgb(173, 172, 172);
+}
+
 .bio {
-    color: royalblue;
+    color: #17AAFF;
     font-weight: 300;
 }
 
