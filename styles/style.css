@@ -1,19 +1,44 @@
 * {
     font-family: 'Heebo', sans-serif;
-    background-color: rgb(31, 30, 30);
     max-width: 1200;
     margin: auto;
 }
 
+body {
+    background-color: rgb(31, 30, 30);
+}
+
 .image {
-    width: 500;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
     margin: 15px;
 }
 
-.head1 {
+.name {
     color: #fff;
+    font-weight: 500;
     font-size: 30px;
-    font-weight: 900;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    background-color: none;
+}
+
+.dev {
+    color: #17aaff;
+    font-weight: 500;
+    font-size: 25px;
+    position: absolute;
+    top: 84%;
+    left: 30%;
+    background-color: none;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600px;
 }
 
 span {
@@ -36,6 +61,12 @@ p {
 }
 
 h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30;
+}
+
+h3 {
     color: #fff;
     font-weight: 600;
 }
